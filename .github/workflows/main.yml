@@ -5,8 +5,9 @@ on:
     branches: [ "master" ]
     paths:
       - "StringUtils/**"
+      - "BankAccount/**"
   push:
-    branches: ["StringUtils", "master"]
+    branches: ["StringUtils", "master", "BankAccount"]
 
 jobs:
   build:
