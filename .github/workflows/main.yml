@@ -5,6 +5,7 @@ on:
     branches: [ "master" ]
     paths:
       - "StringUtils/**"
+      - "BankAccount/**"
   push:
     branches: ["StringUtils", "master", "BankAccount"]
 
